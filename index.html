@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="Tarun Ganjoo Portfolio">
+  <meta name="description" content="Hello there, I am Tarun Ganjoo and this is my portfolio.">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  <meta name="author" content="Tarun Ganjoo">
+
+  <title>Tarun Ganjoo - Web Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/jpg" href="./assets/favicon-32x32.png">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/loader.css">
+  <!-- custom JS -->
+  <script>
+    window.onload = function () {
+      window.scrollTo(0, 0);
+    }
+  </script>
+</head>
+
+<body>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-caret-up fa-beat"></i></button>
+
+  <div class="preloader" id="preloader">
+    <div class="spinner"></div> 
+    <p>Loading...</p>
+  </div>
+
+  <div class="_main_container">
+    <header> 
+      <section class="_nav_bar">
+        <!-- bg-dark data-bs-theme="dark" -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid _navbar_container">
+            <a class="navbar-brand fs-4" href="#resume" style="color: rgb(120,155,175);">Resume&nbsp;<i
+                class="fas fa-yin-yang fa-spin fa-lg" style="color: #f2a3d2;"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active fs-4" aria-current="page" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active fs-4" aria-current="page" href="#work">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active fs-4" aria-current="page" href="#contact">Contact</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </section>
+    </header>
+
+    <main>
+      <section class="_home fs-4">
+        <div class="container _home_area">
+          <div class="row">
+            <div class="col _home_flex_container1">
+              <div class="_home_1_2_container_">
+                <div class="_home_1_">Hello there</div>
+                <div class="_home_2_">I am</div>
+              </div>
+              <div></div>
+              <div class="_home_3_"> <i class="special_size fas fa-cog fa-spin"></i> Tarun</div>
+              <div class="_home_4_">Ganjoo <i class="special_size fas fa-cog fa-spin"></i></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="_home_intro container">
+        <p class="">I am a college student with a strong background in front-end web development and user interface
+          design.
+        </p>
+      </section>
+
+      <section class="container _more_intro">
+        <div class="_more_intro_container">
+          <div class="_more_intro_text">
+            I have a passion for creating visually appealing and user-friendly websites, and I am always seeking new
+            ways to improve my skills.
+          </div>
+          <div class="">
+            <div class="_more_intro_image_container">
+              <img src="./assets/profile_image-modified.png" class="image-fluid _more_intro_image" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="container _resume">
+        <div class="_resume_container">
+          <h2>Want to know more about me, check out my </h2>
+          <a href="https://drive.google.com/file/d/1eSx24p9US2FqaJTEIgpYJ4IdLg3h592k/view?usp=share_link"
+            target="_blank"> resume&nbsp;&nbsp;<i class="fa-solid fa-file fa-beat-fade"></i></a>
+        </div>
+      </section>
+
+      <div id="work" class="container _project_display_area_intro">
+        <h2> <i class="fas fa-cog fa-spin"></i> Side Projects <i class="fas fa-cog fa-spin"></i> </h2>
+      </div>
+
+      <section class="container _project_display_area">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="https://gpt-3-blond.vercel.app/" target="_blank">
+                <img src="./assets/pro_1.png" class="d-block w-100 project_image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>GPT-3 Website</h5>
+                </div>
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://bookmyshow-rdce5x9zm-tarunganjoo18.vercel.app/" target="_blank">
+                <img src="./assets/pro_2.png" class="d-block w-100 project_image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Bookmyshow Website</h5>
+                </div>
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://zomato-landing-page-gilt.vercel.app/" target="_blank">
+                <img src="./assets/pro_3.png" class="d-block w-100 project_image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Zomato Entry Page</h5>
+                </div>
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://tin-dog-three.vercel.app/" target="_blank">
+                <img src="./assets/pro_4.png" class="d-block w-100 project_image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>TinDog</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <div id="about" class="container _about_me_intro_container _about_me_intro_container_additional">
+        <h2> <i class="fas fa-cog fa-spin"></i> About Me <i class="fas fa-cog fa-spin"></i> </h2>
+      </div>
+
+      <section class="_about_me">
+        <div class="container _about_me_container">
+          <div class=" text-center">
+            <div class="row  _about_me_row">
+              <div class="col-xs-12 col-md-6 col-lg">
+                <div class="_about_me_Story">
+                  <h4 class="text-uppercase fw-bolder ">MY STORY</h4>
+                  <p class=" lh-base justify_content ">I'm a young man with a passion for coding. In my first year of
+                    college, I stumbled upon a coding course and was immediately drawn to it. I was fascinated by the
+                    way I could bring my ideas to life with just a few lines of code.
+                    As I progressed through the course, I found myself developing a particular interest in front-end web
+                    development. I spent hours practicing and learning new techniques and before long, I was able to
+                    create simple websites and landing pages.
+                  </p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-6 col-lg _about_me_intern">
+                <div>
+                  <h4 class="text-uppercase fw-bolder ">Internships</h4>
+                  <div class="Work_1">
+                    <p class="fw-lighter "> Jul-2021 to Sep-2021</p>
+                    <h5 class="">ShapeAI, <span class="fw-lighter">(WFH)</span></h5>
+                    <p class=" ">Full Stack Web development Intern</p>
+                    <div class="Work_2">
+                      <p class="fw-lighter "> Aug-2021 to Sep-2021</p>
+                      <h5 class="">Grado, <span class="fw-lighter">(WFH)</span></h5>
+                      <p class="">Web Developer Intern</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer id="contact" class="_footer">
+      <div class="_footer_container">
+
+        <div class="footer_1">
+          <div class="footer_1_container">
+            <div class="row">
+              <div class="col-xs-12 col-md-6 col-lg footer_text1">
+                <i class="fa-solid fa-face-smile fa-bounce"></i>&nbsp;Don't be shy, say hello!
+              </div>
+              <div class="col-xs-12 col-md-6 col-lg footer_links">
+                <a style="color: white;" href="mailto:tarunganjoo123@gmail.com">tarunganjoo123@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer_2">
+          <div class="footer_2_container">
+            <div class="row">
+              <div class="col-xs-12 col-md-6 col-lg footer_text2">
+                <i class="fa-brands fa-github fa-beat"></i>&nbsp;See more work
+              </div>
+              <div class="col-xs-12 col-md-6 col-lg footer_links">
+                <a href="https://github.com/TarunGanjoo18" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer_3">
+          <div class="footer_3_container">
+            <div class="row">
+              <div class="col-xs-12 col-md-6 col-lg footer_text3">
+                <i class="fa-brands fa-linkedin fa-shake"></i>&nbsp;Let's connect
+              </div>
+              <div class="col-xs-12 col-md-6 col-lg footer_links">
+                <a href="https://www.linkedin.com/in/tarunganjoo/" target="_blank">Linkedin</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- </div> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <!-- Script -->
+  <script src="./scripts/index.js"></script>
+  <script>
+    window.onload = function () {
+      window.scrollTo(0, 0);
+    }
+  </script>
+</body>
+
+</html>
